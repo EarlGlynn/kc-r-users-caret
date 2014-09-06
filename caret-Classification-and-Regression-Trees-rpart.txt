@@ -1,0 +1,61 @@
+[1] "Classification-and-Regression-Trees"
+[1] "rpart"
+NULL
+Confusion Matrix and Statistics
+
+          Reference
+Prediction Lying Sit Stand Walk WalkDown WalkUp
+  Lying      350   0     1    0        0      0
+  Sit          0   0   321    0        0      0
+  Stand        0   0   342    1        0      0
+  Walk         0   0     0  306        0      0
+  WalkDown     0   0     0  246        0      0
+  WalkUp       0   0     0  268        0      0
+
+Overall Statistics
+                                          
+               Accuracy : 0.5439          
+                 95% CI : (0.5208, 0.5668)
+    No Information Rate : 0.4474          
+    P-Value [Acc > NIR] : < 2.2e-16       
+                                          
+                  Kappa : 0.4446          
+ Mcnemar's Test P-Value : NA              
+
+Statistics by Class:
+
+                     Class: Lying Class: Sit Class: Stand Class: Walk Class: WalkDown Class: WalkUp
+Sensitivity                1.0000         NA       0.5151      0.3727              NA            NA
+Specificity                0.9993     0.8251       0.9991      1.0000          0.8659         0.854
+Pos Pred Value             0.9972         NA       0.9971      1.0000              NA            NA
+Neg Pred Value             1.0000         NA       0.7842      0.6632              NA            NA
+Prevalence                 0.1907     0.0000       0.3619      0.4474          0.0000         0.000
+Detection Rate             0.1907     0.0000       0.1864      0.1668          0.0000         0.000
+Detection Prevalence       0.1913     0.1749       0.1869      0.1668          0.1341         0.146
+Balanced Accuracy          0.9997         NA       0.7571      0.6864              NA            NA
+Time difference of 1.42 mins
+rpart variable importance
+
+  only 20 most important variables shown (out of 214)
+
+                                     Overall
+v235.tBodyAccJerkMag.entropyE         100.00
+v383.fBodyAccJerk.bandsEnergyE.9.16    99.62
+v559.angle.X.gravityMean               56.07
+v057.tGravityAcc.energyE.X             56.07
+v303.fBodyAcc.bandsEnergyE.1.8         50.16
+v209.tBodyAccMag.entropyE              50.11
+v511.fBodyAccMag.entropyE              50.11
+v185.tBodyGyroJerk.entropyE.Z          49.42
+v028.tBodyAcc.arCoeffE.X.3              0.00
+v142.tBodyGyro.iqrE.Z                   0.00
+v309.fBodyAcc.bandsEnergyE.49.56        0.00
+v034.tBodyAcc.arCoeffE.Z.1              0.00
+v151.tBodyGyro.arCoeffE.Y.2             0.00
+v192.tBodyGyroJerk.arCoeffE.Y.3         0.00
+v033.tBodyAcc.arCoeffE.Y.4              0.00
+v236.tBodyAccJerkMag.arCoeffE1          0.00
+v371.fBodyAccJerk.maxInds.Y             0.00
+v316.fBodyAcc.bandsEnergyE.25.48        0.00
+v557.angle.tBodyGyroMean.gravityMean    0.00
+v491.fBodyGyro.bandsEnergyE.17.24       0.00

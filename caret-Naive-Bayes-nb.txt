@@ -1,0 +1,62 @@
+[1] "Naive-Bayes"
+[1] "nb"
+NULL
+Confusion Matrix and Statistics
+
+          Reference
+Prediction Lying Sit Stand Walk WalkDown WalkUp
+  Lying      346   1     1    0        0      3
+  Sit         27 241    51    0        0      2
+  Stand       12 148   177    0        0      6
+  Walk         0   0     0  276       16     14
+  WalkDown     0   0     0    3      214     29
+  WalkUp       0   0     0    3       14    251
+
+Overall Statistics
+                                          
+               Accuracy : 0.8202          
+                 95% CI : (0.8018, 0.8375)
+    No Information Rate : 0.2125          
+    P-Value [Acc > NIR] : < 2.2e-16       
+                                          
+                  Kappa : 0.7838          
+ Mcnemar's Test P-Value : NA              
+
+Statistics by Class:
+
+                     Class: Lying Class: Sit Class: Stand Class: Walk Class: WalkDown Class: WalkUp
+Sensitivity                0.8987     0.6179      0.77293      0.9787          0.8770        0.8230
+Specificity                0.9966     0.9446      0.89664      0.9807          0.9799        0.9889
+Pos Pred Value             0.9858     0.7508      0.51603      0.9020          0.8699        0.9366
+Neg Pred Value             0.9737     0.9016      0.96515      0.9961          0.9811        0.9655
+Prevalence                 0.2098     0.2125      0.12480      0.1537          0.1330        0.1662
+Detection Rate             0.1886     0.1313      0.09646      0.1504          0.1166        0.1368
+Detection Prevalence       0.1913     0.1749      0.18692      0.1668          0.1341        0.1460
+Balanced Accuracy          0.9476     0.7813      0.83478      0.9797          0.9285        0.9059
+Time difference of 14.45 mins
+ROC curve variable importance
+
+  variables are sorted by maximum importance across the classes
+  only 20 most important variables shown (out of 214)
+
+                                      Lying    Sit  Stand   Walk WalkDown WalkUp
+v559.angle.X.gravityMean             100.00 100.00 100.00 100.00      100 100.00
+v129.tBodyGyro.madE.Z                 99.85  99.87 100.00 100.00      100  99.96
+v204.tBodyAccMag.maxE                 99.61  99.98 100.00  99.99      100 100.00
+v209.tBodyAccMag.entropyE             99.76  99.95 100.00 100.00      100 100.00
+v318.fBodyAcc.bandsEnergyE.9.16       99.97 100.00 100.00 100.00      100  99.97
+v398.fBodyAccJerk.bandsEnergyE.17.24 100.00 100.00 100.00 100.00      100  99.97
+v303.fBodyAcc.bandsEnergyE.1.8        99.92 100.00 100.00 100.00      100 100.00
+v290.fBodyAcc.entropyE.Z              99.96 100.00 100.00 100.00      100  99.94
+v524.fBodyBodyAccJerkMag.entropyE     99.99 100.00 100.00 100.00      100  99.99
+v392.fBodyAccJerk.bandsEnergyE.33.48 100.00 100.00  99.98 100.00      100 100.00
+v490.fBodyGyro.bandsEnergyE.9.16      99.95 100.00 100.00 100.00      100  99.98
+v230.tBodyAccJerkMag.maxE             99.98 100.00  99.98 100.00      100  99.99
+v235.tBodyAccJerkMag.entropyE        100.00 100.00 100.00 100.00      100 100.00
+v519.fBodyBodyAccJerkMag.maxE         99.94 100.00  99.99 100.00      100  99.96
+v511.fBodyAccMag.entropyE            100.00 100.00 100.00 100.00      100 100.00
+v057.tGravityAcc.energyE.X           100.00 100.00 100.00 100.00      100 100.00
+v383.fBodyAccJerk.bandsEnergyE.9.16   99.99 100.00 100.00 100.00      100 100.00
+v550.fBodyBodyGyroJerkMag.entropyE    99.80 100.00  99.89  99.99      100  99.96
+v142.tBodyGyro.iqrE.Z                 99.84  99.86 100.00 100.00      100  99.97
+v396.fBodyAccJerk.bandsEnergyE.1.8    99.78 100.00 100.00 100.00      100 100.00

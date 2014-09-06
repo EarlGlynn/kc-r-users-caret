@@ -1,0 +1,70 @@
+[1] "BaggedCART"
+[1] "treebag"
+NULL
+Confusion Matrix and Statistics
+
+          Reference
+Prediction Lying Sit Stand Walk WalkDown WalkUp
+  Lying      351   0     0    0        0      0
+  Sit          0 302    19    0        0      0
+  Stand        0  14   328    1        0      0
+  Walk         0   0     0  297        4      5
+  WalkDown     0   0     0    6      239      1
+  WalkUp       0   0     0    1        4    263
+
+Overall Statistics
+                                          
+               Accuracy : 0.97            
+                 95% CI : (0.9612, 0.9773)
+    No Information Rate : 0.1913          
+    P-Value [Acc > NIR] : < 2.2e-16       
+                                          
+                  Kappa : 0.9639          
+ Mcnemar's Test P-Value : NA              
+
+Statistics by Class:
+
+                     Class: Lying Class: Sit Class: Stand Class: Walk
+Sensitivity                1.0000     0.9557       0.9452      0.9738
+Specificity                1.0000     0.9875       0.9899      0.9941
+Pos Pred Value             1.0000     0.9408       0.9563      0.9706
+Neg Pred Value             1.0000     0.9908       0.9873      0.9948
+Prevalence                 0.1913     0.1722       0.1891      0.1662
+Detection Rate             0.1913     0.1646       0.1787      0.1619
+Detection Prevalence       0.1913     0.1749       0.1869      0.1668
+Balanced Accuracy          1.0000     0.9716       0.9676      0.9839
+                     Class: WalkDown Class: WalkUp
+Sensitivity                   0.9676        0.9777
+Specificity                   0.9956        0.9968
+Pos Pred Value                0.9715        0.9813
+Neg Pred Value                0.9950        0.9962
+Prevalence                    0.1346        0.1466
+Detection Rate                0.1302        0.1433
+Detection Prevalence          0.1341        0.1460
+Balanced Accuracy             0.9816        0.9873
+Time difference of 10.74 mins
+treebag variable importance
+
+  only 20 most important variables shown (out of 214)
+
+                                    Overall
+v235.tBodyAccJerkMag.entropyE        100.00
+v303.fBodyAcc.bandsEnergyE.1.8        92.32
+v383.fBodyAccJerk.bandsEnergyE.9.16   72.36
+v511.fBodyAccMag.entropyE             66.58
+v185.tBodyGyroJerk.entropyE.Z         65.90
+v057.tGravityAcc.energyE.X            61.96
+v559.angle.X.gravityMean              60.42
+v560.angle.Y.gravityMean              46.94
+v204.tBodyAccMag.maxE                 40.05
+v076.tGravityAcc.arCoeffE.Z.3         33.41
+v077.tGravityAcc.arCoeffE.Z.4         27.09
+v396.fBodyAccJerk.bandsEnergyE.1.8    26.12
+v506.fBodyAccMag.maxE                 22.80
+v072.tGravityAcc.arCoeffE.Y.3         22.48
+v038.tBodyAcc.correlationE.X.Y        21.05
+v369.fBodyAccJerk.entropyE.Z          20.00
+v058.tGravityAcc.energyE.Y            19.58
+v055.tGravityAcc.minE.Z               19.36
+v561.angle.Z.gravityMean              18.40
+v064.tGravityAcc.entropyE.Y           15.82

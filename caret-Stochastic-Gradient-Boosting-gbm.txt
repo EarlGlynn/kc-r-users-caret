@@ -1,0 +1,90 @@
+[1] "Stochastic-Gradient-Boosting"
+[1] "gbm"
+NULL
+Iter   TrainDeviance   ValidDeviance   StepSize   Improve
+     1        1.7918             nan     0.1000    0.6746
+     2        1.3917             nan     0.1000    0.3960
+     3        1.1605             nan     0.1000    0.2795
+     4        0.9893             nan     0.1000    0.2382
+     5        0.8453             nan     0.1000    0.1931
+     6        0.7334             nan     0.1000    0.1407
+     7        0.6519             nan     0.1000    0.1254
+     8        0.5784             nan     0.1000    0.1005
+     9        0.5171             nan     0.1000    0.0758
+    10        0.4714             nan     0.1000    0.0747
+    20        0.2140             nan     0.1000    0.0179
+    40        0.0950             nan     0.1000    0.0036
+    60        0.0580             nan     0.1000    0.0015
+    80        0.0403             nan     0.1000    0.0004
+   100        0.0299             nan     0.1000   -0.0001
+   120        0.0227             nan     0.1000   -0.0001
+   140        0.0175             nan     0.1000    0.0000
+   150        0.0156             nan     0.1000   -0.0000
+
+Confusion Matrix and Statistics
+
+          Reference
+Prediction Lying Sit Stand Walk WalkDown WalkUp
+  Lying      350   0     0    0        1      0
+  Sit          0 311    10    0        0      0
+  Stand        0   7   336    0        0      0
+  Walk         0   0     0  306        0      0
+  WalkDown     0   0     0    3      243      0
+  WalkUp       0   0     0    0        1    267
+
+Overall Statistics
+                                          
+               Accuracy : 0.988           
+                 95% CI : (0.9819, 0.9925)
+    No Information Rate : 0.1907          
+    P-Value [Acc > NIR] : < 2.2e-16       
+                                          
+                  Kappa : 0.9856          
+ Mcnemar's Test P-Value : NA              
+
+Statistics by Class:
+
+                     Class: Lying Class: Sit Class: Stand Class: Walk
+Sensitivity                1.0000     0.9780       0.9711      0.9903
+Specificity                0.9993     0.9934       0.9953      1.0000
+Pos Pred Value             0.9972     0.9688       0.9796      1.0000
+Neg Pred Value             1.0000     0.9954       0.9933      0.9980
+Prevalence                 0.1907     0.1733       0.1886      0.1684
+Detection Rate             0.1907     0.1695       0.1831      0.1668
+Detection Prevalence       0.1913     0.1749       0.1869      0.1668
+Balanced Accuracy          0.9997     0.9857       0.9832      0.9951
+                     Class: WalkDown Class: WalkUp
+Sensitivity                   0.9918        1.0000
+Specificity                   0.9981        0.9994
+Pos Pred Value                0.9878        0.9963
+Neg Pred Value                0.9987        1.0000
+Prevalence                    0.1335        0.1455
+Detection Rate                0.1324        0.1455
+Detection Prevalence          0.1341        0.1460
+Balanced Accuracy             0.9950        0.9997
+Time difference of 9.31 mins
+gbm variable importance
+
+  only 20 most important variables shown (out of 214)
+
+                                     Overall
+v057.tGravityAcc.energyE.X           100.000
+v560.angle.Y.gravityMean              76.438
+v303.fBodyAcc.bandsEnergyE.1.8        49.106
+v204.tBodyAccMag.maxE                 37.563
+v559.angle.X.gravityMean              36.934
+v076.tGravityAcc.arCoeffE.Z.3         17.283
+v461.fBodyGyro.bandsEnergyE.1.8       16.994
+v297.fBodyAcc.skewnessE.X             13.531
+v451.fBodyGyro.maxInds.Z              10.200
+v277.fBodyAcc.maxE.Z                  10.087
+v519.fBodyBodyAccJerkMag.maxE          8.702
+v412.fBodyAccJerk.bandsEnergyE.17.24   8.440
+v160.tBodyGyro.correlationE.Y.Z        8.148
+v463.fBodyGyro.bandsEnergyE.17.24      7.870
+v538.fBodyBodyGyroMag.maxInds          7.188
+v058.tGravityAcc.energyE.Y             6.643
+v511.fBodyAccMag.entropyE              5.845
+v038.tBodyAcc.correlationE.X.Y         5.797
+v023.tBodyAcc.entropyE.X               5.546
+v506.fBodyAccMag.maxE                  5.003

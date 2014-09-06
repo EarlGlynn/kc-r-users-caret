@@ -1,0 +1,92 @@
+[1] "Support-Vector-Machine-Polynomial"
+[1] "svmPoly"
+NULL
+Confusion Matrix and Statistics
+
+          Reference
+Prediction Lying Sit Stand Walk WalkDown WalkUp
+  Lying      351   0     0    0        0      0
+  Sit          0 306    15    0        0      0
+  Stand        0  12   331    0        0      0
+  Walk         0   0     0  306        0      0
+  WalkDown     0   0     0    2      244      0
+  WalkUp       0   0     0    0        0    268
+
+Overall Statistics
+                                          
+               Accuracy : 0.9842          
+                 95% CI : (0.9774, 0.9894)
+    No Information Rate : 0.1913          
+    P-Value [Acc > NIR] : < 2.2e-16       
+                                          
+                  Kappa : 0.981           
+ Mcnemar's Test P-Value : NA              
+
+Statistics by Class:
+
+                     Class: Lying Class: Sit Class: Stand Class: Walk
+Sensitivity                1.0000     0.9623       0.9566      0.9935
+Specificity                1.0000     0.9901       0.9919      1.0000
+Pos Pred Value             1.0000     0.9533       0.9650      1.0000
+Neg Pred Value             1.0000     0.9921       0.9899      0.9987
+Prevalence                 0.1913     0.1733       0.1886      0.1678
+Detection Rate             0.1913     0.1668       0.1804      0.1668
+Detection Prevalence       0.1913     0.1749       0.1869      0.1668
+Balanced Accuracy          1.0000     0.9762       0.9743      0.9968
+                     Class: WalkDown Class: WalkUp
+Sensitivity                   1.0000         1.000
+Specificity                   0.9987         1.000
+Pos Pred Value                0.9919         1.000
+Neg Pred Value                1.0000         1.000
+Prevalence                    0.1330         0.146
+Detection Rate                0.1330         0.146
+Detection Prevalence          0.1341         0.146
+Balanced Accuracy             0.9994         1.000
+Time difference of 16.84 mins
+ROC curve variable importance
+
+  variables are sorted by maximum importance across the classes
+  only 20 most important variables shown (out of 214)
+
+                                      Lying    Sit  Stand   Walk WalkDown
+v204.tBodyAccMag.maxE                 99.61  99.98 100.00  99.99      100
+v559.angle.X.gravityMean             100.00 100.00 100.00 100.00      100
+v318.fBodyAcc.bandsEnergyE.9.16       99.97 100.00 100.00 100.00      100
+v303.fBodyAcc.bandsEnergyE.1.8        99.92 100.00 100.00 100.00      100
+v290.fBodyAcc.entropyE.Z              99.96 100.00 100.00 100.00      100
+v490.fBodyGyro.bandsEnergyE.9.16      99.95 100.00 100.00 100.00      100
+v519.fBodyBodyAccJerkMag.maxE         99.94 100.00  99.99 100.00      100
+v524.fBodyBodyAccJerkMag.entropyE     99.99 100.00 100.00 100.00      100
+v392.fBodyAccJerk.bandsEnergyE.33.48 100.00 100.00  99.98 100.00      100
+v398.fBodyAccJerk.bandsEnergyE.17.24 100.00 100.00 100.00 100.00      100
+v209.tBodyAccMag.entropyE             99.76  99.95 100.00 100.00      100
+v129.tBodyGyro.madE.Z                 99.85  99.87 100.00 100.00      100
+v235.tBodyAccJerkMag.entropyE        100.00 100.00 100.00 100.00      100
+v230.tBodyAccJerkMag.maxE             99.98 100.00  99.98 100.00      100
+v057.tGravityAcc.energyE.X           100.00 100.00 100.00 100.00      100
+v383.fBodyAccJerk.bandsEnergyE.9.16   99.99 100.00 100.00 100.00      100
+v511.fBodyAccMag.entropyE            100.00 100.00 100.00 100.00      100
+v550.fBodyBodyGyroJerkMag.entropyE    99.80 100.00  99.89  99.99      100
+v142.tBodyGyro.iqrE.Z                 99.84  99.86 100.00 100.00      100
+v448.fBodyGyro.entropyE.Z             99.97 100.00  99.95  99.99      100
+                                     WalkUp
+v204.tBodyAccMag.maxE                100.00
+v559.angle.X.gravityMean             100.00
+v318.fBodyAcc.bandsEnergyE.9.16       99.97
+v303.fBodyAcc.bandsEnergyE.1.8       100.00
+v290.fBodyAcc.entropyE.Z              99.94
+v490.fBodyGyro.bandsEnergyE.9.16      99.98
+v519.fBodyBodyAccJerkMag.maxE         99.96
+v524.fBodyBodyAccJerkMag.entropyE     99.99
+v392.fBodyAccJerk.bandsEnergyE.33.48 100.00
+v398.fBodyAccJerk.bandsEnergyE.17.24  99.97
+v209.tBodyAccMag.entropyE            100.00
+v129.tBodyGyro.madE.Z                 99.96
+v235.tBodyAccJerkMag.entropyE        100.00
+v230.tBodyAccJerkMag.maxE             99.99
+v057.tGravityAcc.energyE.X           100.00
+v383.fBodyAccJerk.bandsEnergyE.9.16  100.00
+v511.fBodyAccMag.entropyE            100.00
+v550.fBodyBodyGyroJerkMag.entropyE    99.96
+v142.tBodyGyro.iqrE.Z                 99.97
+v448.fBodyGyro.entropyE.Z             99.97

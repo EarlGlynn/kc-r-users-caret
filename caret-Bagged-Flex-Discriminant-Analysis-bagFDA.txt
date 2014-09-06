@@ -1,0 +1,61 @@
+[1] "Bagged-Flex-Discriminant-Analysis"
+[1] "bagFDA"
+NULL
+Confusion Matrix and Statistics
+
+          Reference
+Prediction Lying Sit Stand Walk WalkDown WalkUp
+  Lying      351   0     0    0        0      0
+  Sit          5 299    17    0        0      0
+  Stand        0  16   327    0        0      0
+  Walk         0   0     1  303        2      0
+  WalkDown     0   0     0    5      239      2
+  WalkUp       0   0     0    0        0    268
+
+Overall Statistics
+                                          
+               Accuracy : 0.9738          
+                 95% CI : (0.9655, 0.9807)
+    No Information Rate : 0.194           
+    P-Value [Acc > NIR] : < 2.2e-16       
+                                          
+                  Kappa : 0.9685          
+ Mcnemar's Test P-Value : NA              
+
+Statistics by Class:
+
+                     Class: Lying Class: Sit Class: Stand Class: Walk Class: WalkDown Class: WalkUp
+Sensitivity                0.9860     0.9492       0.9478      0.9838          0.9917        0.9926
+Specificity                1.0000     0.9855       0.9893      0.9980          0.9956        1.0000
+Pos Pred Value             1.0000     0.9315       0.9534      0.9902          0.9715        1.0000
+Neg Pred Value             0.9966     0.9894       0.9879      0.9967          0.9987        0.9987
+Prevalence                 0.1940     0.1717       0.1880      0.1678          0.1313        0.1471
+Detection Rate             0.1913     0.1629       0.1782      0.1651          0.1302        0.1460
+Detection Prevalence       0.1913     0.1749       0.1869      0.1668          0.1341        0.1460
+Balanced Accuracy          0.9930     0.9674       0.9685      0.9909          0.9937        0.9963
+Time difference of 5.59 hours
+bagFDA variable importance
+
+  only 20 most important variables shown (out of 214)
+
+                                     Overall
+v057.tGravityAcc.energyE.X            100.00
+v303.fBodyAcc.bandsEnergyE.1.8         87.74
+v560.angle.Y.gravityMean               65.45
+v235.tBodyAccJerkMag.entropyE          58.41
+v511.fBodyAccMag.entropyE              43.92
+v435.fBodyGyro.maxE.Z                  40.49
+v412.fBodyAccJerk.bandsEnergyE.17.24   38.37
+v023.tBodyAcc.entropyE.X               36.28
+v183.tBodyGyroJerk.entropyE.X          34.79
+v209.tBodyAccMag.entropyE              33.40
+v452.fBodyGyro.meanFreqE.X             32.17
+v022.tBodyAcc.iqrE.Z                   31.11
+v561.angle.Z.gravityMean               30.06
+v001.tBodyAcc.meanE.X                  29.09
+v451.fBodyGyro.maxInds.Z               28.23
+v185.tBodyGyroJerk.entropyE.Z          27.34
+v158.tBodyGyro.correlationE.X.Y        26.60
+v198.tBodyGyroJerk.correlationE.X.Y    25.90
+v384.fBodyAccJerk.bandsEnergyE.17.24   25.20
+v172.tBodyGyroJerk.maxE.Z              24.49

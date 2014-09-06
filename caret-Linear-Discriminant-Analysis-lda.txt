@@ -1,0 +1,62 @@
+[1] "Linear-Discriminant-Analysis"
+[1] "lda"
+[1] "center" "scale" 
+Confusion Matrix and Statistics
+
+          Reference
+Prediction Lying Sit Stand Walk WalkDown WalkUp
+  Lying      351   0     0    0        0      0
+  Sit          5 295    21    0        0      0
+  Stand        0  14   329    0        0      0
+  Walk         0   0     0  305        0      1
+  WalkDown     0   0     0    2      236      8
+  WalkUp       0   0     0    3        0    265
+
+Overall Statistics
+                                          
+               Accuracy : 0.9706          
+                 95% CI : (0.9618, 0.9778)
+    No Information Rate : 0.194           
+    P-Value [Acc > NIR] : < 2.2e-16       
+                                          
+                  Kappa : 0.9646          
+ Mcnemar's Test P-Value : NA              
+
+Statistics by Class:
+
+                     Class: Lying Class: Sit Class: Stand Class: Walk Class: WalkDown Class: WalkUp
+Sensitivity                0.9860     0.9547       0.9400      0.9839          1.0000        0.9672
+Specificity                1.0000     0.9830       0.9906      0.9993          0.9937        0.9981
+Pos Pred Value             1.0000     0.9190       0.9592      0.9967          0.9593        0.9888
+Neg Pred Value             0.9966     0.9908       0.9859      0.9967          1.0000        0.9943
+Prevalence                 0.1940     0.1684       0.1907      0.1689          0.1286        0.1493
+Detection Rate             0.1913     0.1608       0.1793      0.1662          0.1286        0.1444
+Detection Prevalence       0.1913     0.1749       0.1869      0.1668          0.1341        0.1460
+Balanced Accuracy          0.9930     0.9688       0.9653      0.9916          0.9969        0.9826
+Time difference of 40.45 secs
+ROC curve variable importance
+
+  variables are sorted by maximum importance across the classes
+  only 20 most important variables shown (out of 214)
+
+                                      Lying    Sit  Stand   Walk WalkDown WalkUp
+v318.fBodyAcc.bandsEnergyE.9.16       99.90 100.00 100.00 100.00      100  99.98
+v303.fBodyAcc.bandsEnergyE.1.8        99.84 100.00 100.00 100.00      100 100.00
+v524.fBodyBodyAccJerkMag.entropyE     99.98 100.00 100.00 100.00      100  99.99
+v519.fBodyBodyAccJerkMag.maxE         99.90 100.00 100.00 100.00      100  99.96
+v392.fBodyAccJerk.bandsEnergyE.33.48 100.00 100.00  99.99 100.00      100 100.00
+v230.tBodyAccJerkMag.maxE             99.97 100.00  99.99 100.00      100  99.99
+v057.tGravityAcc.energyE.X           100.00 100.00 100.00 100.00      100 100.00
+v383.fBodyAccJerk.bandsEnergyE.9.16  100.00 100.00 100.00 100.00      100 100.00
+v511.fBodyAccMag.entropyE             99.99 100.00 100.00 100.00      100 100.00
+v559.angle.X.gravityMean             100.00 100.00 100.00 100.00      100 100.00
+v129.tBodyGyro.madE.Z                 99.84  99.89 100.00 100.00      100  99.95
+v235.tBodyAccJerkMag.entropyE        100.00 100.00 100.00 100.00      100 100.00
+v398.fBodyAccJerk.bandsEnergyE.17.24 100.00 100.00 100.00 100.00      100  99.96
+v209.tBodyAccMag.entropyE             99.66  99.97 100.00  99.99      100  99.99
+v142.tBodyGyro.iqrE.Z                 99.84  99.90 100.00 100.00      100  99.96
+v356.fBodyAccJerk.maxE.Z              99.91 100.00 100.00 100.00      100  99.97
+v396.fBodyAccJerk.bandsEnergyE.1.8    99.61 100.00 100.00 100.00      100 100.00
+v410.fBodyAccJerk.bandsEnergyE.1.8    99.61  99.97 100.00 100.00      100 100.00
+v420.fBodyAccJerk.bandsEnergyE.33.48  99.84 100.00  99.86 100.00      100  99.98
+v369.fBodyAccJerk.entropyE.Z          99.94 100.00 100.00 100.00      100  99.95

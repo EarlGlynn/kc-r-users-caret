@@ -1,0 +1,70 @@
+[1] "Random-Forest"
+[1] "rf"
+NULL
+Confusion Matrix and Statistics
+
+          Reference
+Prediction Lying Sit Stand Walk WalkDown WalkUp
+  Lying      350   1     0    0        0      0
+  Sit          0 305    16    0        0      0
+  Stand        0  11   332    0        0      0
+  Walk         0   0     0  302        1      3
+  WalkDown     0   0     0    3      243      0
+  WalkUp       0   0     0    0        2    266
+
+Overall Statistics
+                                          
+               Accuracy : 0.9798          
+                 95% CI : (0.9723, 0.9858)
+    No Information Rate : 0.1907          
+    P-Value [Acc > NIR] : < 2.2e-16       
+                                          
+                  Kappa : 0.9757          
+ Mcnemar's Test P-Value : NA              
+
+Statistics by Class:
+
+                     Class: Lying Class: Sit Class: Stand Class: Walk
+Sensitivity                1.0000     0.9621       0.9540      0.9902
+Specificity                0.9993     0.9895       0.9926      0.9974
+Pos Pred Value             0.9972     0.9502       0.9679      0.9869
+Neg Pred Value             1.0000     0.9921       0.9893      0.9980
+Prevalence                 0.1907     0.1728       0.1896      0.1662
+Detection Rate             0.1907     0.1662       0.1809      0.1646
+Detection Prevalence       0.1913     0.1749       0.1869      0.1668
+Balanced Accuracy          0.9997     0.9758       0.9733      0.9938
+                     Class: WalkDown Class: WalkUp
+Sensitivity                   0.9878        0.9888
+Specificity                   0.9981        0.9987
+Pos Pred Value                0.9878        0.9925
+Neg Pred Value                0.9981        0.9981
+Prevalence                    0.1341        0.1466
+Detection Rate                0.1324        0.1450
+Detection Prevalence          0.1341        0.1460
+Balanced Accuracy             0.9930        0.9938
+Time difference of 18.87 mins
+rf variable importance
+
+  only 20 most important variables shown (out of 214)
+
+                                    Overall
+v057.tGravityAcc.energyE.X          100.000
+v559.angle.X.gravityMean             94.032
+v560.angle.Y.gravityMean             93.602
+v303.fBodyAcc.bandsEnergyE.1.8       81.343
+v235.tBodyAccJerkMag.entropyE        74.752
+v076.tGravityAcc.arCoeffE.Z.3        50.552
+v204.tBodyAccMag.maxE                35.306
+v058.tGravityAcc.energyE.Y           26.234
+v511.fBodyAccMag.entropyE            24.610
+v383.fBodyAccJerk.bandsEnergyE.9.16  20.220
+v072.tGravityAcc.arCoeffE.Y.3        18.011
+v038.tBodyAcc.correlationE.X.Y       13.739
+v506.fBodyAccMag.maxE                13.495
+v561.angle.Z.gravityMean             12.939
+v077.tGravityAcc.arCoeffE.Z.4        12.646
+v160.tBodyGyro.correlationE.Y.Z      12.131
+v451.fBodyGyro.maxInds.Z             11.720
+v449.fBodyGyro.maxInds.X             10.628
+v064.tGravityAcc.entropyE.Y          10.221
+v185.tBodyGyroJerk.entropyE.Z         8.952

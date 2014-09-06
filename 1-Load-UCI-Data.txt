@@ -1,0 +1,364 @@
+[1] 2947  564
+[1] 7352  564
+[1] 10299   564
+    
+     Lying Sit Stand Walk WalkDown WalkUp
+  1     50  47    53   95       49     53
+  2     48  46    54   59       47     48
+  3     62  52    61   58       49     59
+  4     54  50    56   60       45     52
+  5     52  44    56   56       47     47
+  6     57  55    57   57       48     51
+  7     52  48    53   57       47     51
+  8     54  46    54   48       38     41
+  9     50  50    45   52       42     49
+  10    58  54    44   53       38     47
+  11    57  53    47   59       46     54
+  12    60  51    61   50       46     52
+  13    62  49    57   57       47     55
+  14    51  54    60   59       45     54
+  15    72  59    53   54       42     48
+  16    70  69    78   51       47     51
+  17    71  64    78   61       46     48
+  18    65  57    73   56       55     58
+  19    83  73    73   52       39     40
+  20    68  66    73   51       45     51
+  21    90  85    89   52       45     47
+  22    72  62    63   46       36     42
+  23    72  68    68   59       54     51
+  24    72  68    69   58       55     59
+  25    73  65    74   74       58     65
+  26    76  78    74   59       50     55
+  27    74  70    80   57       44     51
+  28    80  72    79   54       46     51
+  29    69  60    65   53       48     49
+  30    70  62    59   65       62     65
+[1] "source"                "subject.id"            "activity"              "v001.tBodyAcc.meanE.X"
+[5] "v002.tBodyAcc.meanE.Y" "v003.tBodyAcc.meanE.Z"
+[1] "v556.angle.tBodyAccJerkMean.gravityMean"  "v557.angle.tBodyGyroMean.gravityMean"    
+[3] "v558.angle.tBodyGyroJerkMean.gravityMean" "v559.angle.X.gravityMean"                
+[5] "v560.angle.Y.gravityMean"                 "v561.angle.Z.gravityMean"                
+  source subject.id activity v001.tBodyAcc.meanE.X v002.tBodyAcc.meanE.Y v003.tBodyAcc.meanE.Z
+1   test          2    Stand             0.2571778           -0.02328523           -0.01465376
+  v004.tBodyAcc.stdE.X v005.tBodyAcc.stdE.Y v006.tBodyAcc.stdE.Z v007.tBodyAcc.madE.X v008.tBodyAcc.madE.Y
+1            -0.938404           -0.9200908           -0.6676833           -0.9525011           -0.9252487
+  v009.tBodyAcc.madE.Z v010.tBodyAcc.maxE.X v011.tBodyAcc.maxE.Y v012.tBodyAcc.maxE.Z v013.tBodyAcc.minE.X
+1           -0.6743022           -0.8940875           -0.5545772            -0.466223            0.7172085
+  v014.tBodyAcc.minE.Y v015.tBodyAcc.minE.Z v016.tBodyAcc.smaE v017.tBodyAcc.energyE.X v018.tBodyAcc.energyE.Y
+1            0.6355024            0.7894967         -0.8777642              -0.9977661              -0.9984138
+  v019.tBodyAcc.energyE.Z v020.tBodyAcc.iqrE.X v021.tBodyAcc.iqrE.Y v022.tBodyAcc.iqrE.Z
+1              -0.9343453            -0.975669           -0.9498237           -0.8304778
+  v023.tBodyAcc.entropyE.X v024.tBodyAcc.entropyE.Y v025.tBodyAcc.entropyE.Z v026.tBodyAcc.arCoeffE.X.1
+1               -0.1680842               -0.3789955                 0.246217                  0.5212036
+  v027.tBodyAcc.arCoeffE.X.2 v028.tBodyAcc.arCoeffE.X.3 v029.tBodyAcc.arCoeffE.X.4 v030.tBodyAcc.arCoeffE.Y.1
+1                 -0.4877931                  0.4822805                -0.04546211                  0.2119551
+  v031.tBodyAcc.arCoeffE.Y.2 v032.tBodyAcc.arCoeffE.Y.3 v033.tBodyAcc.arCoeffE.Y.4 v034.tBodyAcc.arCoeffE.Z.1
+1                 -0.1348944                  0.1308585                -0.01417631                 -0.1059709
+  v035.tBodyAcc.arCoeffE.Z.2 v036.tBodyAcc.arCoeffE.Z.3 v037.tBodyAcc.arCoeffE.Z.4
+1                 0.07354401                 -0.1715164                 0.04006298
+  v038.tBodyAcc.correlationE.X.Y v039.tBodyAcc.correlationE.X.Z v040.tBodyAcc.correlationE.Y.Z
+1                     0.07698893                     -0.4905457                     -0.7090026
+  v041.tGravityAcc.meanE.X v042.tGravityAcc.meanE.Y v043.tGravityAcc.meanE.Z v044.tGravityAcc.stdE.X
+1                0.9364893               -0.2827192                0.1152882              -0.9254273
+  v045.tGravityAcc.stdE.Y v046.tGravityAcc.stdE.Z v047.tGravityAcc.madE.X v048.tGravityAcc.madE.Y
+1              -0.9370141              -0.5642884              -0.9300199               -0.937822
+  v049.tGravityAcc.madE.Z v050.tGravityAcc.maxE.X v051.tGravityAcc.maxE.Y v052.tGravityAcc.maxE.Z
+1              -0.6055877               0.9060826              -0.2792441               0.1528952
+  v053.tGravityAcc.minE.X v054.tGravityAcc.minE.Y v055.tGravityAcc.minE.Z v056.tGravityAcc.smaE
+1               0.9444614              -0.2621596             -0.07616168           -0.01782692
+  v057.tGravityAcc.energyE.X v058.tGravityAcc.energyE.Y v059.tGravityAcc.energyE.Z v060.tGravityAcc.iqrE.X
+1                  0.8292968                 -0.8646206                 -0.9677953              -0.9497267
+  v061.tGravityAcc.iqrE.Y v062.tGravityAcc.iqrE.Z v063.tGravityAcc.entropyE.X v064.tGravityAcc.entropyE.Y
+1              -0.9461192              -0.7597181                  -0.4249753                          -1
+  v065.tGravityAcc.entropyE.Z v066.tGravityAcc.arCoeffE.X.1 v067.tGravityAcc.arCoeffE.X.2
+1                   0.2192273                    -0.4302536                     0.4310483
+  v068.tGravityAcc.arCoeffE.X.3 v069.tGravityAcc.arCoeffE.X.4 v070.tGravityAcc.arCoeffE.Y.1
+1                    -0.4318389                     0.4327738                    -0.7954677
+  v071.tGravityAcc.arCoeffE.Y.2 v072.tGravityAcc.arCoeffE.Y.3 v073.tGravityAcc.arCoeffE.Y.4
+1                     0.7813139                    -0.7803915                     0.7852716
+  v074.tGravityAcc.arCoeffE.Z.1 v075.tGravityAcc.arCoeffE.Z.2 v076.tGravityAcc.arCoeffE.Z.3
+1                    -0.9844102                     0.9871799                    -0.9894148
+  v077.tGravityAcc.arCoeffE.Z.4 v078.tGravityAcc.correlationE.X.Y v079.tGravityAcc.correlationE.X.Z
+1                     0.9876861                         0.9805803                        -0.9963518
+  v080.tGravityAcc.correlationE.Y.Z v081.tBodyAccJerk.meanE.X v082.tBodyAccJerk.meanE.Y
+1                        -0.9601171                0.07204601                 0.0457544
+  v083.tBodyAccJerk.meanE.Z v084.tBodyAccJerk.stdE.X v085.tBodyAccJerk.stdE.Y v086.tBodyAccJerk.stdE.Z
+1                -0.1060427               -0.9066828               -0.9380164               -0.9359358
+  v087.tBodyAccJerk.madE.X v088.tBodyAccJerk.madE.Y v089.tBodyAccJerk.madE.Z v090.tBodyAccJerk.maxE.X
+1               -0.9160809               -0.9367255               -0.9490538               -0.9032242
+  v091.tBodyAccJerk.maxE.Y v092.tBodyAccJerk.maxE.Z v093.tBodyAccJerk.minE.X v094.tBodyAccJerk.minE.Y
+1               -0.9498183               -0.8914035                0.8984794                0.9501816
+  v095.tBodyAccJerk.minE.Z v096.tBodyAccJerk.smaE v097.tBodyAccJerk.energyE.X v098.tBodyAccJerk.energyE.Y
+1                0.9461528             -0.9306729                  -0.9950459                  -0.9974955
+  v099.tBodyAccJerk.energyE.Z v100.tBodyAccJerk.iqrE.X v101.tBodyAccJerk.iqrE.Y v102.tBodyAccJerk.iqrE.Z
+1                  -0.9970156                -0.936416               -0.9468741               -0.9687746
+  v103.tBodyAccJerk.entropyE.X v104.tBodyAccJerk.entropyE.Y v105.tBodyAccJerk.entropyE.Z
+1                  -0.08517415                    -0.310263                   -0.5102876
+  v106.tBodyAccJerk.arCoeffE.X.1 v107.tBodyAccJerk.arCoeffE.X.2 v108.tBodyAccJerk.arCoeffE.X.3
+1                      0.5214817                     -0.2258897                      0.4917284
+  v109.tBodyAccJerk.arCoeffE.X.4 v110.tBodyAccJerk.arCoeffE.Y.1 v111.tBodyAccJerk.arCoeffE.Y.2
+1                      0.3127555                      0.2297968                      0.1139592
+  v112.tBodyAccJerk.arCoeffE.Y.3 v113.tBodyAccJerk.arCoeffE.Y.4 v114.tBodyAccJerk.arCoeffE.Z.1
+1                      0.2198786                      0.4229745                    -0.08263318
+  v115.tBodyAccJerk.arCoeffE.Z.2 v116.tBodyAccJerk.arCoeffE.Z.3 v117.tBodyAccJerk.arCoeffE.Z.4
+1                      0.1404265                     -0.1962323                     0.07235794
+  v118.tBodyAccJerk.correlationE.X.Y v119.tBodyAccJerk.correlationE.X.Z v120.tBodyAccJerk.correlationE.Y.Z
+1                         -0.2648602                         0.03585215                         -0.3497352
+  v121.tBodyGyro.meanE.X v122.tBodyGyro.meanE.Y v123.tBodyGyro.meanE.Z v124.tBodyGyro.stdE.X
+1              0.1199762            -0.09179234              0.1896285            -0.8830891
+  v125.tBodyGyro.stdE.Y v126.tBodyGyro.stdE.Z v127.tBodyGyro.madE.X v128.tBodyGyro.madE.Y v129.tBodyGyro.madE.Z
+1            -0.8161636            -0.9408812            -0.8886123             -0.857801            -0.9458183
+  v130.tBodyGyro.maxE.X v131.tBodyGyro.maxE.Y v132.tBodyGyro.maxE.Z v133.tBodyGyro.minE.X v134.tBodyGyro.minE.Y
+1            -0.6634106            -0.7134366            -0.6486786             0.8371004             0.8252568
+  v135.tBodyGyro.minE.Z v136.tBodyGyro.smaE v137.tBodyGyro.energyE.X v138.tBodyGyro.energyE.Y
+1             0.8109771          -0.7964999               -0.9796164               -0.9829001
+  v139.tBodyGyro.energyE.Z v140.tBodyGyro.iqrE.X v141.tBodyGyro.iqrE.Y v142.tBodyGyro.iqrE.Z
+1               -0.9940368            -0.8865579            -0.9061043            -0.9580488
+  v143.tBodyGyro.entropyE.X v144.tBodyGyro.entropyE.Y v145.tBodyGyro.entropyE.Z v146.tBodyGyro.arCoeffE.X.1
+1                 0.7740328                -0.2677059                 0.4522481                 -0.07845127
+  v147.tBodyGyro.arCoeffE.X.2 v148.tBodyGyro.arCoeffE.X.3 v149.tBodyGyro.arCoeffE.X.4
+1                 -0.01257862                   0.2359816                  -0.1990475
+  v150.tBodyGyro.arCoeffE.Y.1 v151.tBodyGyro.arCoeffE.Y.2 v152.tBodyGyro.arCoeffE.Y.3
+1                  0.03391784                 -0.08078053                 0.006998715
+  v153.tBodyGyro.arCoeffE.Y.4 v154.tBodyGyro.arCoeffE.Z.1 v155.tBodyGyro.arCoeffE.Z.2
+1                   0.2448855                   0.2165166                  -0.2796808
+  v156.tBodyGyro.arCoeffE.Z.3 v157.tBodyGyro.arCoeffE.Z.4 v158.tBodyGyro.correlationE.X.Y
+1                   0.2497388                  0.01771975                       0.6484645
+  v159.tBodyGyro.correlationE.X.Z v160.tBodyGyro.correlationE.Y.Z v161.tBodyGyroJerk.meanE.X
+1                      -0.2369311                      -0.3017347                 -0.2048962
+  v162.tBodyGyroJerk.meanE.Y v163.tBodyGyroJerk.meanE.Z v164.tBodyGyroJerk.stdE.X v165.tBodyGyroJerk.stdE.Y
+1                 -0.1744877                -0.09338934                -0.9012242                -0.9108601
+  v166.tBodyGyroJerk.stdE.Z v167.tBodyGyroJerk.madE.X v168.tBodyGyroJerk.madE.Y v169.tBodyGyroJerk.madE.Z
+1                -0.9392504                -0.9103627                -0.9273567                -0.9535541
+  v170.tBodyGyroJerk.maxE.X v171.tBodyGyroJerk.maxE.Y v172.tBodyGyroJerk.maxE.Z v173.tBodyGyroJerk.minE.X
+1                -0.8679143                -0.9134978                -0.8975779                 0.9049367
+  v174.tBodyGyroJerk.minE.Y v175.tBodyGyroJerk.minE.Z v176.tBodyGyroJerk.smaE v177.tBodyGyroJerk.energyE.X
+1                 0.9173084                 0.9476122              -0.9296091                   -0.9946862
+  v178.tBodyGyroJerk.energyE.Y v179.tBodyGyroJerk.energyE.Z v180.tBodyGyroJerk.iqrE.X v181.tBodyGyroJerk.iqrE.Y
+1                   -0.9957906                   -0.9978126                -0.9365408                -0.9588796
+  v182.tBodyGyroJerk.iqrE.Z v183.tBodyGyroJerk.entropyE.X v184.tBodyGyroJerk.entropyE.Y
+1                -0.9703483                    0.03661912                    0.07645993
+  v185.tBodyGyroJerk.entropyE.Z v186.tBodyGyroJerk.arCoeffE.X.1 v187.tBodyGyroJerk.arCoeffE.X.2
+1                     -0.197126                       0.1065143                      -0.0208119
+  v188.tBodyGyroJerk.arCoeffE.X.3 v189.tBodyGyroJerk.arCoeffE.X.4 v190.tBodyGyroJerk.arCoeffE.Y.1
+1                       0.1932578                       0.3044788                       0.1157292
+  v191.tBodyGyroJerk.arCoeffE.Y.2 v192.tBodyGyroJerk.arCoeffE.Y.3 v193.tBodyGyroJerk.arCoeffE.Y.4
+1                       0.0541496                      0.06895124                       0.1970496
+  v194.tBodyGyroJerk.arCoeffE.Z.1 v195.tBodyGyroJerk.arCoeffE.Z.2 v196.tBodyGyroJerk.arCoeffE.Z.3
+1                       0.3099283                      -0.2126571                       0.1731781
+  v197.tBodyGyroJerk.arCoeffE.Z.4 v198.tBodyGyroJerk.correlationE.X.Y v199.tBodyGyroJerk.correlationE.X.Z
+1                       0.1458445                           0.1240088                          -0.1553463
+  v200.tBodyGyroJerk.correlationE.Y.Z v201.tBodyAccMag.meanE v202.tBodyAccMag.stdE v203.tBodyAccMag.madE
+1                          -0.3234373             -0.8669294            -0.7051911            -0.7440217
+  v204.tBodyAccMag.maxE v205.tBodyAccMag.minE v206.tBodyAccMag.smaE v207.tBodyAccMag.energyE
+1            -0.7607956            -0.9816487            -0.8669294               -0.9801658
+  v208.tBodyAccMag.iqrE v209.tBodyAccMag.entropyE v210.tBodyAccMag.arCoeffE1 v211.tBodyAccMag.arCoeffE2
+1            -0.8594742                 0.2551044                  0.0537797                 -0.2041445
+  v212.tBodyAccMag.arCoeffE3 v213.tBodyAccMag.arCoeffE4 v214.tGravityAccMag.meanE v215.tGravityAccMag.stdE
+1                  0.6105276                 -0.5644493                -0.8669294               -0.7051911
+  v216.tGravityAccMag.madE v217.tGravityAccMag.maxE v218.tGravityAccMag.minE v219.tGravityAccMag.smaE
+1               -0.7440217               -0.7607956               -0.9816487               -0.8669294
+  v220.tGravityAccMag.energyE v221.tGravityAccMag.iqrE v222.tGravityAccMag.entropyE
+1                  -0.9801658               -0.8594742                    0.2551044
+  v223.tGravityAccMag.arCoeffE1 v224.tGravityAccMag.arCoeffE2 v225.tGravityAccMag.arCoeffE3
+1                     0.0537797                    -0.2041445                     0.6105276
+  v226.tGravityAccMag.arCoeffE4 v227.tBodyAccJerkMag.meanE v228.tBodyAccJerkMag.stdE v229.tBodyAccJerkMag.madE
+1                    -0.5644493                 -0.9297665                -0.8959942                -0.9004173
+  v230.tBodyAccJerkMag.maxE v231.tBodyAccJerkMag.minE v232.tBodyAccJerkMag.smaE v233.tBodyAccJerkMag.energyE
+1                -0.9030044                -0.9750111                -0.9297665                   -0.9956077
+  v234.tBodyAccJerkMag.iqrE v235.tBodyAccJerkMag.entropyE v236.tBodyAccJerkMag.arCoeffE1
+1                -0.9141207                    -0.1295523                      0.2389109
+  v237.tBodyAccJerkMag.arCoeffE2 v238.tBodyAccJerkMag.arCoeffE3 v239.tBodyAccJerkMag.arCoeffE4
+1                     -0.3455972                      0.3264624                      -0.263048
+  v240.tBodyGyroMag.meanE v241.tBodyGyroMag.stdE v242.tBodyGyroMag.madE v243.tBodyGyroMag.maxE
+1              -0.7955439             -0.7620732             -0.7826723             -0.7165936
+  v244.tBodyGyroMag.minE v245.tBodyGyroMag.smaE v246.tBodyGyroMag.energyE v247.tBodyGyroMag.iqrE
+1             -0.7641926             -0.7955439                -0.9741521              -0.839581
+  v248.tBodyGyroMag.entropyE v249.tBodyGyroMag.arCoeffE1 v250.tBodyGyroMag.arCoeffE2 v251.tBodyGyroMag.arCoeffE3
+1                  0.6675627                  0.03562114                   -0.161894                   0.1532501
+  v252.tBodyGyroMag.arCoeffE4 v253.tBodyGyroJerkMag.meanE v254.tBodyGyroJerkMag.stdE v255.tBodyGyroJerkMag.madE
+1                -0.006759604                  -0.9251949                 -0.8943436                 -0.9001467
+  v256.tBodyGyroJerkMag.maxE v257.tBodyGyroJerkMag.minE v258.tBodyGyroJerkMag.smaE v259.tBodyGyroJerkMag.energyE
+1                 -0.9167371                 -0.9763667                 -0.9251949                    -0.9958242
+  v260.tBodyGyroJerkMag.iqrE v261.tBodyGyroJerkMag.entropyE v262.tBodyGyroJerkMag.arCoeffE1
+1                 -0.9118375                      0.3316543                       0.5169532
+  v263.tBodyGyroJerkMag.arCoeffE2 v264.tBodyGyroJerkMag.arCoeffE3 v265.tBodyGyroJerkMag.arCoeffE4
+1                       -0.513504                      0.04131981                      0.01183501
+  v266.fBodyAcc.meanE.X v267.fBodyAcc.meanE.Y v268.fBodyAcc.meanE.Z v269.fBodyAcc.stdE.X v270.fBodyAcc.stdE.Y
+1            -0.9185097            -0.9182132            -0.7890915           -0.9482903           -0.9251369
+  v271.fBodyAcc.stdE.Z v272.fBodyAcc.madE.X v273.fBodyAcc.madE.Y v274.fBodyAcc.madE.Z v275.fBodyAcc.maxE.X
+1           -0.6363167           -0.9306803           -0.9244385           -0.7249026           -0.9684241
+  v276.fBodyAcc.maxE.Y v277.fBodyAcc.maxE.Z v278.fBodyAcc.minE.X v279.fBodyAcc.minE.Y v280.fBodyAcc.minE.Z
+1           -0.9401367           -0.5971887           -0.9661371           -0.9844505           -0.9520871
+  v281.fBodyAcc.smaE v282.fBodyAcc.energyE.X v283.fBodyAcc.energyE.Y v284.fBodyAcc.energyE.Z
+1         -0.8650632              -0.9978437              -0.9960362               -0.940195
+  v285.fBodyAcc.iqrE.X v286.fBodyAcc.iqrE.Y v287.fBodyAcc.iqrE.Z v288.fBodyAcc.entropyE.X
+1           -0.9048404           -0.9338125           -0.8693829               -0.3396733
+  v289.fBodyAcc.entropyE.Y v290.fBodyAcc.entropyE.Z v291.fBodyAcc.maxInds.X v292.fBodyAcc.maxInds.Y
+1               -0.4858032               -0.1662577                      -1                      -1
+  v293.fBodyAcc.maxInds.Z v294.fBodyAcc.meanFreqE.X v295.fBodyAcc.meanFreqE.Y v296.fBodyAcc.meanFreqE.Z
+1                      -1                0.01111695                 0.1212507                -0.5229487
+  v297.fBodyAcc.skewnessE.X v298.fBodyAcc.kurtosisE.X v299.fBodyAcc.skewnessE.Y v300.fBodyAcc.kurtosisE.Y
+1                -0.5719995                -0.8946124                -0.3382659                -0.6867975
+  v301.fBodyAcc.skewnessE.Z v302.fBodyAcc.kurtosisE.Z v303.fBodyAcc.bandsEnergyE.1.8
+1                 0.1895525                -0.1135957                     -0.9985063
+  v304.fBodyAcc.bandsEnergyE.9.16 v305.fBodyAcc.bandsEnergyE.17.24 v306.fBodyAcc.bandsEnergyE.25.32
+1                      -0.9979426                       -0.9955979                       -0.9950356
+  v307.fBodyAcc.bandsEnergyE.33.40 v308.fBodyAcc.bandsEnergyE.41.48 v309.fBodyAcc.bandsEnergyE.49.56
+1                       -0.9959769                       -0.9914874                       -0.9921312
+  v310.fBodyAcc.bandsEnergyE.57.64 v311.fBodyAcc.bandsEnergyE.1.16 v312.fBodyAcc.bandsEnergyE.17.32
+1                       -0.9997751                      -0.9982039                       -0.9947467
+  v313.fBodyAcc.bandsEnergyE.33.48 v314.fBodyAcc.bandsEnergyE.49.64 v315.fBodyAcc.bandsEnergyE.1.24
+1                        -0.994309                       -0.9946932                      -0.9980205
+  v316.fBodyAcc.bandsEnergyE.25.48 v317.fBodyAcc.bandsEnergyE.1.8 v318.fBodyAcc.bandsEnergyE.9.16
+1                       -0.9937275                     -0.9962089                      -0.9979761
+  v319.fBodyAcc.bandsEnergyE.17.24 v320.fBodyAcc.bandsEnergyE.25.32 v321.fBodyAcc.bandsEnergyE.33.40
+1                       -0.9989209                       -0.9964011                       -0.9975599
+  v322.fBodyAcc.bandsEnergyE.41.48 v323.fBodyAcc.bandsEnergyE.49.56 v324.fBodyAcc.bandsEnergyE.57.64
+1                        -0.995068                       -0.9973513                        -0.998238
+  v325.fBodyAcc.bandsEnergyE.1.16 v326.fBodyAcc.bandsEnergyE.17.32 v327.fBodyAcc.bandsEnergyE.33.48
+1                      -0.9960705                       -0.9979246                       -0.9963566
+  v328.fBodyAcc.bandsEnergyE.49.64 v329.fBodyAcc.bandsEnergyE.1.24 v330.fBodyAcc.bandsEnergyE.25.48
+1                       -0.9976398                        -0.99622                       -0.9962254
+  v331.fBodyAcc.bandsEnergyE.1.8 v332.fBodyAcc.bandsEnergyE.9.16 v333.fBodyAcc.bandsEnergyE.17.24
+1                     -0.9247055                      -0.9940973                       -0.9953235
+  v334.fBodyAcc.bandsEnergyE.25.32 v335.fBodyAcc.bandsEnergyE.33.40 v336.fBodyAcc.bandsEnergyE.41.48
+1                       -0.9989694                       -0.9979016                       -0.9949296
+  v337.fBodyAcc.bandsEnergyE.49.56 v338.fBodyAcc.bandsEnergyE.57.64 v339.fBodyAcc.bandsEnergyE.1.16
+1                       -0.9892607                       -0.9800854                      -0.9379367
+  v340.fBodyAcc.bandsEnergyE.17.32 v341.fBodyAcc.bandsEnergyE.33.48 v342.fBodyAcc.bandsEnergyE.49.64
+1                       -0.9966776                       -0.9970254                       -0.9864274
+  v343.fBodyAcc.bandsEnergyE.1.24 v344.fBodyAcc.bandsEnergyE.25.48 v345.fBodyAccJerk.meanE.X
+1                      -0.9392008                       -0.9984318                -0.8996332
+  v346.fBodyAccJerk.meanE.Y v347.fBodyAccJerk.meanE.Z v348.fBodyAccJerk.stdE.X v349.fBodyAccJerk.stdE.Y
+1                 -0.937485                -0.9235514               -0.9244291               -0.9432104
+  v350.fBodyAccJerk.stdE.Z v351.fBodyAccJerk.madE.X v352.fBodyAccJerk.madE.Y v353.fBodyAccJerk.madE.Z
+1               -0.9478915               -0.8966146               -0.9383091               -0.9425757
+  v354.fBodyAccJerk.maxE.X v355.fBodyAccJerk.maxE.Y v356.fBodyAccJerk.maxE.Z v357.fBodyAccJerk.minE.X
+1               -0.9486343               -0.9583254               -0.9588169               -0.9438824
+  v358.fBodyAccJerk.minE.Y v359.fBodyAccJerk.minE.Z v360.fBodyAccJerk.smaE v361.fBodyAccJerk.energyE.X
+1               -0.9873033               -0.9784656             -0.9052742                  -0.9950361
+  v362.fBodyAccJerk.energyE.Y v363.fBodyAccJerk.energyE.Z v364.fBodyAccJerk.iqrE.X v365.fBodyAccJerk.iqrE.Y
+1                  -0.9974993                  -0.9970307               -0.8870774               -0.9358196
+  v366.fBodyAccJerk.iqrE.Z v367.fBodyAccJerk.entropyE.X v368.fBodyAccJerk.entropyE.Y
+1               -0.9536533                   -0.4706616                   -0.6721718
+  v369.fBodyAccJerk.entropyE.Z v370.fBodyAccJerk.maxInds.X v371.fBodyAccJerk.maxInds.Y
+1                    -0.596274                       -0.52                        0.08
+  v372.fBodyAccJerk.maxInds.Z v373.fBodyAccJerk.meanFreqE.X v374.fBodyAccJerk.meanFreqE.Y
+1                        0.32                     0.4510054                      0.137167
+  v375.fBodyAccJerk.meanFreqE.Z v376.fBodyAccJerk.skewnessE.X v377.fBodyAccJerk.kurtosisE.X
+1                    -0.1802991                    -0.5800861                      -0.90807
+  v378.fBodyAccJerk.skewnessE.Y v379.fBodyAccJerk.kurtosisE.Y v380.fBodyAccJerk.skewnessE.Z
+1                    -0.6255269                    -0.9427572                    -0.6619101
+  v381.fBodyAccJerk.kurtosisE.Z v382.fBodyAccJerk.bandsEnergyE.1.8 v383.fBodyAccJerk.bandsEnergyE.9.16
+1                    -0.9115321                         -0.9990115                          -0.9976301
+  v384.fBodyAccJerk.bandsEnergyE.17.24 v385.fBodyAccJerk.bandsEnergyE.25.32 v386.fBodyAccJerk.bandsEnergyE.33.40
+1                           -0.9959848                           -0.9947085                           -0.9955716
+  v387.fBodyAccJerk.bandsEnergyE.41.48 v388.fBodyAccJerk.bandsEnergyE.49.56 v389.fBodyAccJerk.bandsEnergyE.57.64
+1                           -0.9878765                           -0.9864452                           -0.9982052
+  v390.fBodyAccJerk.bandsEnergyE.1.16 v391.fBodyAccJerk.bandsEnergyE.17.32 v392.fBodyAccJerk.bandsEnergyE.33.48
+1                          -0.9980404                           -0.9944968                           -0.9920496
+  v393.fBodyAccJerk.bandsEnergyE.49.64 v394.fBodyAccJerk.bandsEnergyE.1.24 v395.fBodyAccJerk.bandsEnergyE.25.48
+1                            -0.986333                          -0.9968935                           -0.9907627
+  v396.fBodyAccJerk.bandsEnergyE.1.8 v397.fBodyAccJerk.bandsEnergyE.9.16 v398.fBodyAccJerk.bandsEnergyE.17.24
+1                         -0.9994092                          -0.9986481                           -0.9987487
+  v399.fBodyAccJerk.bandsEnergyE.25.32 v400.fBodyAccJerk.bandsEnergyE.33.40 v401.fBodyAccJerk.bandsEnergyE.41.48
+1                           -0.9964063                           -0.9971722                           -0.9945302
+  v402.fBodyAccJerk.bandsEnergyE.49.56 v403.fBodyAccJerk.bandsEnergyE.57.64 v404.fBodyAccJerk.bandsEnergyE.1.16
+1                           -0.9979198                           -0.9999697                          -0.9986417
+  v405.fBodyAccJerk.bandsEnergyE.17.32 v406.fBodyAccJerk.bandsEnergyE.33.48 v407.fBodyAccJerk.bandsEnergyE.49.64
+1                           -0.9974017                           -0.9954108                           -0.9981824
+  v408.fBodyAccJerk.bandsEnergyE.1.24 v409.fBodyAccJerk.bandsEnergyE.25.48 v410.fBodyAccJerk.bandsEnergyE.1.8
+1                          -0.9984631                           -0.9959958                         -0.9936388
+  v411.fBodyAccJerk.bandsEnergyE.9.16 v412.fBodyAccJerk.bandsEnergyE.17.24 v413.fBodyAccJerk.bandsEnergyE.25.32
+1                          -0.9978378                           -0.9971293                           -0.9987495
+  v414.fBodyAccJerk.bandsEnergyE.33.40 v415.fBodyAccJerk.bandsEnergyE.41.48 v416.fBodyAccJerk.bandsEnergyE.49.56
+1                           -0.9967088                           -0.9951097                           -0.9984858
+  v417.fBodyAccJerk.bandsEnergyE.57.64 v418.fBodyAccJerk.bandsEnergyE.1.16 v419.fBodyAccJerk.bandsEnergyE.17.32
+1                           -0.9990935                          -0.9959246                           -0.9979509
+  v420.fBodyAccJerk.bandsEnergyE.33.48 v421.fBodyAccJerk.bandsEnergyE.49.64 v422.fBodyAccJerk.bandsEnergyE.1.24
+1                           -0.9960129                           -0.9984601                          -0.9962671
+  v423.fBodyAccJerk.bandsEnergyE.25.48 v424.fBodyGyro.meanE.X v425.fBodyGyro.meanE.Y v426.fBodyGyro.meanE.Z
+1                           -0.9977005             -0.8235579              -0.807916             -0.9179126
+  v427.fBodyGyro.stdE.X v428.fBodyGyro.stdE.Y v429.fBodyGyro.stdE.Z v430.fBodyGyro.madE.X v431.fBodyGyro.madE.Y
+1            -0.9032627             -0.822677            -0.9561651             -0.865127            -0.8318008
+  v432.fBodyGyro.madE.Z v433.fBodyGyro.maxE.X v434.fBodyGyro.maxE.Y v435.fBodyGyro.maxE.Z v436.fBodyGyro.minE.X
+1            -0.9410562             -0.904798            -0.8792566            -0.9677885            -0.8785993
+  v437.fBodyGyro.minE.Y v438.fBodyGyro.minE.Z v439.fBodyGyro.smaE v440.fBodyGyro.energyE.X
+1            -0.9483291            -0.9196852           -0.828472               -0.9929495
+  v441.fBodyGyro.energyE.Y v442.fBodyGyro.energyE.Z v443.fBodyGyro.iqrE.X v444.fBodyGyro.iqrE.Y
+1               -0.9826631               -0.9979933            -0.8788944             -0.838152
+  v445.fBodyGyro.iqrE.Z v446.fBodyGyro.entropyE.X v447.fBodyGyro.entropyE.Y v448.fBodyGyro.entropyE.Z
+1              -0.92914              0.0007581481                 0.2001437                -0.2533842
+  v449.fBodyGyro.maxInds.X v450.fBodyGyro.maxInds.Y v451.fBodyGyro.maxInds.Z v452.fBodyGyro.meanFreqE.X
+1                       -1               -0.9354839               -0.9310345                  0.1840346
+  v453.fBodyGyro.meanFreqE.Y v454.fBodyGyro.meanFreqE.Z v455.fBodyGyro.skewnessE.X v456.fBodyGyro.kurtosisE.X
+1                -0.05932286                  0.4381072                 -0.3954228                 -0.6987616
+  v457.fBodyGyro.skewnessE.Y v458.fBodyGyro.kurtosisE.Y v459.fBodyGyro.skewnessE.Z v460.fBodyGyro.kurtosisE.Z
+1                 -0.3874572                 -0.7863942                 -0.4856536                 -0.7868151
+  v461.fBodyGyro.bandsEnergyE.1.8 v462.fBodyGyro.bandsEnergyE.9.16 v463.fBodyGyro.bandsEnergyE.17.24
+1                      -0.9946291                       -0.9904691                        -0.9927778
+  v464.fBodyGyro.bandsEnergyE.25.32 v465.fBodyGyro.bandsEnergyE.33.40 v466.fBodyGyro.bandsEnergyE.41.48
+1                        -0.9956797                        -0.9870777                         -0.986651
+  v467.fBodyGyro.bandsEnergyE.49.56 v468.fBodyGyro.bandsEnergyE.57.64 v469.fBodyGyro.bandsEnergyE.1.16
+1                        -0.9841144                        -0.9852502                       -0.9935525
+  v470.fBodyGyro.bandsEnergyE.17.32 v471.fBodyGyro.bandsEnergyE.33.48 v472.fBodyGyro.bandsEnergyE.49.64
+1                        -0.9924302                        -0.9856058                         -0.984617
+  v473.fBodyGyro.bandsEnergyE.1.24 v474.fBodyGyro.bandsEnergyE.25.48 v475.fBodyGyro.bandsEnergyE.1.8
+1                       -0.9932692                        -0.9927255                      -0.9779278
+  v476.fBodyGyro.bandsEnergyE.9.16 v477.fBodyGyro.bandsEnergyE.17.24 v478.fBodyGyro.bandsEnergyE.25.32
+1                       -0.9948522                        -0.9978191                         -0.994843
+  v479.fBodyGyro.bandsEnergyE.33.40 v480.fBodyGyro.bandsEnergyE.41.48 v481.fBodyGyro.bandsEnergyE.49.56
+1                        -0.9924099                        -0.9881227                        -0.9904332
+  v482.fBodyGyro.bandsEnergyE.57.64 v483.fBodyGyro.bandsEnergyE.1.16 v484.fBodyGyro.bandsEnergyE.17.32
+1                        -0.9879613                        -0.981791                        -0.9963992
+  v485.fBodyGyro.bandsEnergyE.33.48 v486.fBodyGyro.bandsEnergyE.49.64 v487.fBodyGyro.bandsEnergyE.1.24
+1                        -0.9914523                          -0.98806                       -0.9820484
+  v488.fBodyGyro.bandsEnergyE.25.48 v489.fBodyGyro.bandsEnergyE.1.8 v490.fBodyGyro.bandsEnergyE.9.16
+1                          -0.99338                      -0.9988777                       -0.9983667
+  v491.fBodyGyro.bandsEnergyE.17.24 v492.fBodyGyro.bandsEnergyE.25.32 v493.fBodyGyro.bandsEnergyE.33.40
+1                        -0.9984673                        -0.9983746                        -0.9989059
+  v494.fBodyGyro.bandsEnergyE.41.48 v495.fBodyGyro.bandsEnergyE.49.56 v496.fBodyGyro.bandsEnergyE.57.64
+1                        -0.9958936                        -0.9931284                        -0.9954723
+  v497.fBodyGyro.bandsEnergyE.1.16 v498.fBodyGyro.bandsEnergyE.17.32 v499.fBodyGyro.bandsEnergyE.33.48
+1                       -0.9983871                        -0.9977543                        -0.9980959
+  v500.fBodyGyro.bandsEnergyE.49.64 v501.fBodyGyro.bandsEnergyE.1.24 v502.fBodyGyro.bandsEnergyE.25.48
+1                        -0.9941477                       -0.9981906                        -0.9982901
+  v503.fBodyAccMag.meanE v504.fBodyAccMag.stdE v505.fBodyAccMag.madE v506.fBodyAccMag.maxE v507.fBodyAccMag.minE
+1             -0.7909464             -0.711074             -0.726707            -0.7776971            -0.9448813
+  v508.fBodyAccMag.smaE v509.fBodyAccMag.energyE v510.fBodyAccMag.iqrE v511.fBodyAccMag.entropyE
+1            -0.7909464               -0.9539836            -0.8735426                -0.1745929
+  v512.fBodyAccMag.maxInds v513.fBodyAccMag.meanFreqE v514.fBodyAccMag.skewnessE v515.fBodyAccMag.kurtosisE
+1                       -1                 -0.4834525                 0.01104068                 -0.3845166
+  v516.fBodyBodyAccJerkMag.meanE v517.fBodyBodyAccJerkMag.stdE v518.fBodyBodyAccJerkMag.madE
+1                     -0.8950612                    -0.8963596                    -0.8881974
+  v519.fBodyBodyAccJerkMag.maxE v520.fBodyBodyAccJerkMag.minE v521.fBodyBodyAccJerkMag.smaE
+1                    -0.9284657                    -0.8980998                    -0.8950612
+  v522.fBodyBodyAccJerkMag.energyE v523.fBodyBodyAccJerkMag.iqrE v524.fBodyBodyAccJerkMag.entropyE
+1                       -0.9934714                    -0.9214767                        -0.4846193
+  v525.fBodyBodyAccJerkMag.maxInds v526.fBodyBodyAccJerkMag.meanFreqE v527.fBodyBodyAccJerkMag.skewnessE
+1                               -1                        -0.03535579                         -0.2542483
+  v528.fBodyBodyAccJerkMag.kurtosisE v529.fBodyBodyGyroMag.meanE v530.fBodyBodyGyroMag.stdE
+1                         -0.7003257                    -0.77061                 -0.7971128
+  v531.fBodyBodyGyroMag.madE v532.fBodyBodyGyroMag.maxE v533.fBodyBodyGyroMag.minE v534.fBodyBodyGyroMag.smaE
+1                 -0.7644846                 -0.8201876                 -0.9379593                   -0.77061
+  v535.fBodyBodyGyroMag.energyE v536.fBodyBodyGyroMag.iqrE v537.fBodyBodyGyroMag.entropyE
+1                     -0.970958                 -0.7983865                      0.1794352
+  v538.fBodyBodyGyroMag.maxInds v539.fBodyBodyGyroMag.meanFreqE v540.fBodyBodyGyroMag.skewnessE
+1                            -1                      -0.0473913                       -0.467849
+  v541.fBodyBodyGyroMag.kurtosisE v542.fBodyBodyGyroJerkMag.meanE v543.fBodyBodyGyroJerkMag.stdE
+1                      -0.7613258                      -0.8901655                     -0.9073076
+  v544.fBodyBodyGyroJerkMag.madE v545.fBodyBodyGyroJerkMag.maxE v546.fBodyBodyGyroJerkMag.minE
+1                     -0.8953006                      -0.917883                     -0.9098288
+  v547.fBodyBodyGyroJerkMag.smaE v548.fBodyBodyGyroJerkMag.energyE v549.fBodyBodyGyroJerkMag.iqrE
+1                     -0.8901655                        -0.9941054                     -0.8980215
+  v550.fBodyBodyGyroJerkMag.entropyE v551.fBodyBodyGyroJerkMag.maxInds v552.fBodyBodyGyroJerkMag.meanFreqE
+1                         -0.2348153                                -1                          0.07164545
+  v553.fBodyBodyGyroJerkMag.skewnessE v554.fBodyBodyGyroJerkMag.kurtosisE v555.angle.tBodyAccMean.gravity
+1                          -0.3303704                          -0.7059739                     0.006462403
+  v556.angle.tBodyAccJerkMean.gravityMean v557.angle.tBodyGyroMean.gravityMean
+1                               0.1629198                           -0.8258856
+  v558.angle.tBodyGyroJerkMean.gravityMean v559.angle.X.gravityMean v560.angle.Y.gravityMean
+1                                0.2711515               -0.7200093                 0.276801
+  v561.angle.Z.gravityMean
+1               -0.0579783
